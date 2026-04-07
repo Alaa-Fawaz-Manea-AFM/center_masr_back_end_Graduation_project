@@ -10,8 +10,6 @@ import logger from "./utils/logger.js";
 import { CLIENT_URL, HOST, NODE_ENV, PORT } from "./config/ENV.js";
 import { globalLimiter } from "./middlware/rateLimiter.middlware.js";
 import globalErrorHandler from "./utils/errorController.js";
-import xss from "xss-clean";
-import mongoSanitize from "express-mongo-sanitize";
 import { nanoid } from "nanoid";
 
 const app = express();
