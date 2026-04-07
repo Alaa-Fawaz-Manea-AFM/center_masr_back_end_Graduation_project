@@ -23,7 +23,7 @@ module.exports = {
     database: DB_NAME,
     host: DB_HOST,
     port: DB_PORT,
-    dialect: DB_DIALECT,
+    dialect: "postgres",
     dialectOptions:
       DB_SSL === "true"
         ? {
