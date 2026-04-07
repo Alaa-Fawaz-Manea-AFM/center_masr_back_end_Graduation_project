@@ -8,8 +8,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start:dev": "nodemon .",
-    "ws-connect": "wscat -c ws://localhost:3000/ws"
+   "start:dev": "nodemon app.js",
+  "start": "node app.js",
+  "build": "npm install --production"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
