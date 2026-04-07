@@ -8,13 +8,14 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-   "start:dev": "nodemon app.js",
-  "start": "node app.js",
-  "build": "npm install --production"
+    "start:dev": "nodemon app.js",
+    "start": "node app.js",
+    "build": "npm install --production"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "express-mongo-sanitize": "^2.2.0",

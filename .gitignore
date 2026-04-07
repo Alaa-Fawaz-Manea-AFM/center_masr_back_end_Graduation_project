@@ -11,6 +11,8 @@ yarn.lock
 .env.*
 !.env.example
 
+
+
 # logs
 logs/
 *.log
