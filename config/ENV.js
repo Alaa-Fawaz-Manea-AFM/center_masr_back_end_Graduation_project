@@ -11,7 +11,7 @@ export const {
   DB_NAME,
   DB_HOST,
   DB_PORT,
-  DB_DIALECT,
+  DB_DIALECT = "postgres",
   DB_SSL = "true",
   CLIENT_URL,
   REDIS_PORT,
