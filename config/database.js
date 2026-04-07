@@ -11,7 +11,7 @@ import {
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
   host: DB_HOST,
   port: DB_PORT,
-  dialect: "postgres",
+  dialect: DB_DIALECT,
   logging: false,
   dialectOptions: {
     ssl: { require: true, rejectUnauthorized: false },

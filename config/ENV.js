@@ -1,5 +1,4 @@
-import dotenv from "dotenv";
-dotenv.config();
+import "dotenv/config";
 
 export const {
   NODE_ENV = "development",
@@ -11,7 +10,7 @@ export const {
   DB_NAME,
   DB_HOST,
   DB_PORT,
-  DB_DIALECT = "postgres",
+  DB_DIALECT,
   DB_SSL = "true",
   CLIENT_URL,
   REDIS_PORT,
