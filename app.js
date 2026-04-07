@@ -139,7 +139,7 @@ if (NODE_ENV === "production") {
 }
 
 // ===================== Server ===================== //
-app.listen(PORT, HOST, () => {
+app.listen(PORT || 8000, HOST, () => {
   logger.info(`Server running on port ${PORT} in ${NODE_ENV} mode`);
 });
 
